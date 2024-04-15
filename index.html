@@ -16,40 +16,40 @@
 	</head>
 
 <body>
-	
+     <div class="wrapper-main">
+	<!--__Hamburger Menu__-->
 	<div class="off-screen-menu">
-        <a href="./index new.html"><img src="./img/white.png" style="height: 50px;"></a>
-
-        <a href="./about.html">About Us</a>
-        <a href="./facilities.html">Accomodation & Facilities</a>
-        <div class="dropdown"> 
-            <button class="dropbtn">Activities<i class="fa fa-caret-down"></i></button>
-            <div class="dropdown-content">
-                <a href="./activity.html#fishing">Fishing</a>
-                <a href="./activity.html#canoening">Canoening</a>
-                <a href="./activity.html#gameviewing">Game Viewing</a>
-                <a href="./activity.html#birdwatching">Bird Watching</a>
-                <a href="./activity.html#rivercruises">River Cruises</a>
-                <a href="./activity.html#photographicsafaris">Photographic Safari's</a>
-                
-    </div>
-    </div>
-            <a href="./tigercup.html">Tiger Cup</a>
-            <a href="./info.html">Info</a>
-            <a href="./contact us.html">Contact Us</a>
-        </div>
-    </div>
-    </div>
-
-    <nav>
-        <div class="logo"><a href="./index new.html"><img src="./img/img/Navbar logo-green-01.png"></a>
-        </div>
-      <div class="ham-menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </nav>
+		<a href="./index.html"><img src="./img/white.png" style="height: 50px;"></a>
+	
+		<a href="./about.html">About Us</a>
+		<a href="./facilities.html">Accomodation & Facilities</a>
+		<div class="dropdown"> 
+			<button class="dropbtn">Activities<i class="fa fa-caret-down"></i></button>
+			<div class="dropdown-content">
+				<a href="./activity.html#fishing">Fishing</a>
+				<a href="./activity.html#canoening">Canoening</a>
+				<a href="./activity.html#gameviewing">Game Viewing</a>
+				<a href="./activity.html#birdwatching">Bird Watching</a>
+				<a href="./activity.html#rivercruises">River Cruises</a>
+				<a href="./activity.html#photographicsafaris">Photographic Safari's</a>
+				
+	</div>
+	</div>
+			<a href="./tigercup.html">Tiger Cup</a>
+			<a href="./info.html">Info</a>
+			<a href="./contact us.html">Contact Us</a>
+		</div>
+	</div>
+	
+	<nav>
+		<div class="logo"><a href="./index.html"><img src="./img/img/Navbar logo-green-01.png"></a>
+		</div>
+	  <div class="ham-menu">
+		<span></span>
+		<span></span>
+		<span></span>
+	  </div>
+	</nav>
 
 		<div class="bg-img"></div>
 <div class="line"></div>
@@ -375,57 +375,13 @@
 </div>  
   </div>
 </div>
-<!--Hamburger Menu-->
-<script>
-	const hamMenu = document.querySelector(".ham-menu");
-
-const offScreenMenu = document.querySelector(".off-screen-menu");
-
-hamMenu.addEventListener("click", () => {
-hamMenu.classList.toggle("active");
-offScreenMenu.classList.toggle("active");
-});
-</script>
-
+			</div>
   <!--//*footer -->
-  
-
   <!-- Font awesome -->
   <script src="https://kit.fontawesome.com/0845ace683.js" crossorigin="anonymous"></script>
   <!-- ___________ Slick Slider ______________ -->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-
-<script>
-
-	let slideIndex = 1;
-	showSlides(slideIndex);
-	
-	function plusSlides(n) {
-	  showSlides(slideIndex += n);
-	}
-	
-	function currentSlide(n) {
-	  showSlides(slideIndex = n);
-	}
-	
-	function showSlides(n) {
-	  let i;
-	  let slides = document.getElementsByClassName("mySlides");
-	  let dots = document.getElementsByClassName("dot");
-	  if (n > slides.length) {slideIndex = 1}    
-	  if (n < 1) {slideIndex = slides.length}
-	  for (i = 0; i < slides.length; i++) {
-		slides[i].style.display = "none";  
-	  }
-	  for (i = 0; i < dots.length; i++) {
-		dots[i].className = dots[i].className.replace(" active", "");
-	  }
-	  slides[slideIndex-1].style.display = "block";  
-	  dots[slideIndex-1].className += " active";
-	}
-	</script>
-	
 	 <!-- ___________ Slick Slider ______________ -->
 	 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	 <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
