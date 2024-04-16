@@ -188,7 +188,7 @@ padding: 0 10px;
 /* Header Image*/
 .bg-img {
   /* The image used */
-  background-image: url("img_about/Mvuu Main Lodge-18.jpg");
+  background-image: url("./img_about/Mvuu Main Lodge-18.jpg");
   
   min-height: 500px;
   opacity: 1;
