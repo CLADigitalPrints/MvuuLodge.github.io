@@ -105,7 +105,7 @@
       </div><div class="mx-2">
         <img src="./img_about3/activities-016.jpeg" alt="">
       </div><div class="mx-2">
-        <img src="./img/img_about/activities-017.jpeg" alt="">
+        <img src="./img_about2/activities-017.jpeg" alt="">
       </div><div class="mx-2">
         <img src="./img/img_about/activities-018.jpeg" alt="">
       </div><div class="mx-2">
@@ -492,7 +492,27 @@
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
   <script src="main.js"></script>
+  <script>
 
+    $('.slider').slick({
+      centerMode: true,
+      dots: true,
+      autoplay: true,
+      centerPadding: '60px',
+      slidesToShow: 3,
+      responsive: [{
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          Infinity: true,
+          slidesToShow: 1
+        },
+      }]
+    });
+
+  </script>
 </body>
 
 </html>
