@@ -24,6 +24,7 @@
   
     /* Needed to position the navbar */
     position: relative;
+     z-index:9999;
   }
   
   .bg-img h1 {
