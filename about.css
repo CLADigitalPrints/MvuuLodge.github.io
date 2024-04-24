@@ -1,3 +1,5 @@
+
+
 @import url("http://font.googleapis.com/css?family=CathcyMager");
 
 
@@ -6,57 +8,61 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Catchy Mager, arial", "sans-serif";
+  font-family: "Catchy Mager, arial", "calibri light", "sans-serif";
+}
+
+
+
+body {
+  padding: 0px;
+  background: #dfd4cd;
+  margin: 0px;
+}
+
+.wrapper-main{
+  width:1100px;
+  margin: 0 auto;
+}
+
+/* Header Image*/
+.bg-img {
+  /* The image used */
+  background-image: url("img_about/img_about/Mvuu\ Main\ Lodge-18.jpg");
+  
+  min-height: 500px;
+  opacity: 1;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+.bg-img h1 {
+  padding: 80px;
+  justify-content: center center;
+  color: #fff;
+  text-align: center;
+  font-size: 80px;
+  font-family:Catchy Mager;
+  transform: translateY(50px);
 }
 
 
   
-   /* Header Image*/
-   .bg-img {
-    /* The image used */
-    background-image: url("img_about/Mvuu Main Lodge-18.jpg");
-    min-height: 450px;
-    opacity: 1;
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-    /* Needed to position the navbar */
-    position: relative;
-     z-index:9999;
-  }
-  
-  .bg-img h1 {
-    padding: 80px;
-    justify-content: center center;
-    color: #fff;
-    text-align: center;
-    font-size: 80px;
-    font-family:Catchy Mager;
-    transform: translateY(50px);
-  }
+.bg-img h3{
+  margin-top: 0px;
+  padding: 10px;
+  justify-content: center center;
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-family:'winsdor';
+  transform: translateY(-50px);
+}
 
-
-    
-  .bg-img h3{
-    margin-top: 0px;
-    padding: 10px;
-    justify-content: center center;
-    color: #fff;
-    text-align: center;
-    font-size: 50px;
-    font-family:'winsdor';
-    transform: translateY(-50px);
-  }
-
-
-  .line{
-    background: #3f2417;
-    height: 15px;
-   }
-
-   
 /*Hamburger Menu*/
 a {
   color: white;
@@ -103,6 +109,7 @@ body {
    float: left;
    overflow: hidden;
    margin-left: 20px;
+   z-index:999;
  }
  
  /* Dropdown button */
@@ -118,14 +125,17 @@ body {
    transform: translateY(10px);
    font-family: Catchy Mager;
    font-weight: bold;
+   z-index:999;
  }
  
  .dropdown .dropbtn .fas {
 padding: 0 10px;
+    z-index:999;
  }
  /* Add a red background color to navbar links on hover */
  .off-screen-menu a:hover, .dropdown:hover .dropbtn {
    background-color: #bbac9b;
+    z-index:999;
  }
  
  /* Dropdown content (hidden by default) */
@@ -135,7 +145,7 @@ padding: 0 10px;
    background-color:#3f2417;
    min-width: 160px;
    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-   z-index: 1;
+   z-index:999;
  }
  
  /* Links inside the dropdown */
@@ -146,16 +156,19 @@ padding: 0 10px;
    text-decoration: none;
    display: block;
    text-align: left;
+     z-index:999;
  }
  
  /* Add a grey background color to dropdown links on hover */
  .dropdown-content a:hover {
    background-color: #bbac9b;
+    z-index:999;
  }
  
  /* Show the dropdown menu on hover */
  .dropdown:hover .dropdown-content {
    display: block;
+    z-index:999;
  }
  
 
@@ -232,72 +245,12 @@ nav {
   transform: translate(-50%, -50%) rotate(-45deg);
 }
 /*End Of Hamburger Menu*/
-    .bg-img h1 {
-padding-top: 15%;     
-justify-content: center center;
-      color: #fff;
-      text-align: center;
-      font-size: 80px;
-      font-family:Catchy Mager;
-    }
  
- 
+
  .line{
   background: #633B29;
   height: 15px;
  }
-
-
- .header_font{
-  color:#3f2417;
-  font-size: 55px;
-  text-align: center;
-  font-weight: bold;
-  font-family: 'Catchy Mager';
- }
- 
- .header_font1{
-  background: #4e5b28;
-  color:#fff;
-  height: 60px;
-  width: auto;
-  font-family: 'Catchy Mager';
-  text-align: center;
-  margin-top: 650px;
- justify-content: center;
-  padding: 8px 10px;
-}
- 
- /* Header Image*/
- .bg-img {
-  /* The image used */
-  background-image: url("img/img_about/Mvuu\ Main\ Lodge-18.jpg");
-  
-  min-height: 500px;
-  opacity: 1;
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  /* Needed to position the navbar */
-  position: relative;
-}
-    .bg-img h1 {
-padding-top: 15%;     
-justify-content: center center;
-      color: #fff;
-      text-align: center;
-      font-size: 80px;
-      font-family:Catchy Mager;
-    }
- 
- 
- .line{
-  background: #633B29;
-  height: 15px;
- }
-
 
  .header_font{
   color:#3f2417;
