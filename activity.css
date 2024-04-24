@@ -15,7 +15,7 @@ body {
   height: 100%;
   padding: 0px;
   background: #dfd4cd;
-  margin: 0px;
+  margin: 2px;
 }
 
 
@@ -26,10 +26,10 @@ body {
  }
   
  
- /* Header Image*/
- .bg-img {
+/* Header Image*/
+.bg-img {
   /* The image used */
-  background-image: url("img/img-activites/Mvuu\ Wildlife-37\ \(1\).jpg");
+  background-image: url("img-activites/Mvuu\ Wildlife-37\ \(1\).jpg");
   
   min-height: 500px;
   opacity: 1;
