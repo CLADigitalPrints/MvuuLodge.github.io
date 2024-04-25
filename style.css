@@ -19,7 +19,7 @@ body {
 }
 
 .wrapper-main{
-  width:100%;
+  width:1000px;
   margin: 0 auto;
 }
 
@@ -809,7 +809,7 @@ margin-left: 620px;
 @media only screen and(max-width: 600px){
 
   .wrapper-main{
-  width:500px;
+  width:100%;
   margin: 0 auto;
 }
 
