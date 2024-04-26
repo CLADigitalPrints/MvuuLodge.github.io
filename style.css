@@ -282,18 +282,7 @@ nav {
 
 .item{
   width: 100%;
-  height: 100%;
-  
-}
-
-
-/* base styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
+  height: 100%; 
 }
 
 .header_font{
@@ -808,9 +797,8 @@ margin-left: 620px;
 /*Mobile Version*/
 @media only screen and(max-width: 400px){
 .wrapper-main{
-  width:50%;
-  margin-left: 10px;
-  margin-right:10px;
+  width:100%;
+
 }
 
 
