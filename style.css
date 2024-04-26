@@ -812,9 +812,13 @@ margin-left: 620px;
   margin: 0 auto;
 }
 
-  .footer .footer-bottom{
-  height: 50px;
-  width: 100%;
+ 
+  /* off-screen-menu */
+.off-screen-menu {
+  height: auto;
+  width: 10%;
+  max-width: 125px;
+  right: -125px;
+  z-index: 9999;
 }
-  
 }
