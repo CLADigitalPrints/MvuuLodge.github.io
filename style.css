@@ -823,15 +823,14 @@ margin-left: 620px;
 }
 
 .header_font{
-  font-size: 15px;
+  font-size: 12pt;
  }
  .sub_header{
-  color:#3f2417;
-  font-size: 8px;
+  font-size: 8pt;
  }
 
  .description_2{
-  font-size: 12px;
+  font-size: 8pt;
   padding-bottom: 12px;
  }
 
@@ -856,54 +855,15 @@ margin-left: 620px;
 
 
 .info h3{
-  position: absolute;
-  color: white;
-  font-family:Catchy Mager ;
-  text-align: center;
-  align-items: center;
-  align-content: center;
-  text-shadow: 0px 7px 10px rgba(0,0,0,0.5);
-  padding: 0 15px;
-  font-size: 15pt;
-  margin-left: 330px;
-  transform: translateY(-300px);
-}
-
-.info h2{
-  position: absolute;
-  color: white;
-  text-align: center;
-  align-items: center;
-  font-family:Catchy Mager ;
-  margin-top: 2px;
-  margin-left: 57px;
-  transform: translateY(-300px);
-}
-
-.info p{
-  color: white;
-  text-align: center;
-  align-items: center;
   font-size: 10pt;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  text-shadow: 0px 7px 10px rgba(0,0,0,0.5);
-  transform: translate(-50%, -50%);
-  margin-top: 15px;
+}
+  
+.info p{
+  font-size: 8pt;
 }
 
 .info2 p{
-  color: white;
-  text-align: center;
-  align-items: center;
-  font-size: 12pt;
-  position: absolute;
-  top: 70%;
-  left: 70%;
-  text-shadow: 0px 7px 10px rgba(0,0,0,0.5);
-  transform: translate(-50%, -50%);
-  margin-top: 15px;
+  font-size: 8pt;
 }
 
 
@@ -916,86 +876,20 @@ margin-left: 620px;
 }
 
 .text2 h4{
-  text-align: center;
-  color: #fff;
-  padding: 15px;
-  padding-bottom: 25px;
-  font-size: 25px;
-  font-family: 'Catchy Mager';
-  margin-top: 5px;
-  text-shadow:0mm 0.5mm 0.5mm rgba(0,0,0,0.5);;
+  font-size: 12px;
 }
 
 
 .tab-background{
   background: #633B29;
-  height: 600px;
-  width:1000px;
-  transform: translateY(50px);
-  margin-top: 5px;
-  float: inline-start;
-  justify-content: center;
-  text-align: center;
-  padding: 5px 80px;
-  border-radius: 20px;
-  transform: translateY(-10px);
-  box-shadow: rgba(0,0,0,0.2);
+  height: 300px;
+  width:100%;
 }
-/*tab-menu*/
-
-/* Style tab links */
-.tablink {
-  background-color:#3f2417;
-  color: white;
-  float: initial;
-  justify-content: center;
-  text-align: center;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 10px 16px;
-  margin: 15px;
-  margin-top: 15px;
-  font-size: 14px;
-  width: auto;
-  border-radius: 10px;
-}
-
-.tablink:hover {
-  background-color:#633B29;
-}
-
-/* Style the tab content (and add height:100% for full page content) */
-.tabcontent {
-  color: white;
-  background-color: #633B29;
-  display: none;
-  font-size: 15pt;
- justify-content: left;
- text-align: left;
- transform: translateX(-15px);
- margin-left: -15px;
- margin-top: 35px;
-}
-
 
 .tabcontent img {
-  height: 350px;
-  width: 400px;
-  justify-content: right;
-  float: right;
-  border-radius: 10px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  border-color: 10px #bbac9b;
-  transform: translateY(-220px);
-  margin-right: -45px;
+  height: 175px;
+  width: 200px;
 }
-
-#Home {background-color:#633B29}
-#News {background-color: #633B29;}
-#Contact {background-color: #633B29;}
-#About {background-color: #633B29;}
-
 
 .tab-background{
   background: #633B29;
@@ -1058,5 +952,6 @@ margin-left: 620px;
 }
 
 
-  
+}  
 }
+  
