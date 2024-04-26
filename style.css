@@ -807,54 +807,14 @@ margin-left: 620px;
 
 /*Mobile Version*/
 @media only screen and(max-width: 400px){
-
-  .wrapper-main{
-  width:50%;
-  margin: 0 auto;
-}
-
-
-/* off-screen-menu */
-.off-screen-menu {
-  height: 50vh;
-  width: 50%;
-  max-width: 425px;
-
-}
-  
-  .images-container {
-  max-width: 300px;
-  height: 100px;
-  margin: 20px auto;
-  display: flex;
-  border: 2px solid #3f2417;
-}
-
-.images-container img {
-  width: 50%;
-  height: 50%;
-  object-fit: cover;
-  transition: all 400ms;
-}
-  
-.item{
-  width: 50%;
-  height: 50%;
-  
-}
-
-
-  .description_2{
-  font-size: 10px;
-  padding-bottom: 22px;
- }
-
-}
-
-
-  @media (min-width: 400px){
-
-  .wrapper-main{
+.wrapper-main{
   width:100%;
   margin: 0 auto;
+}
+
+  .footer .footer-bottom{
+  height: 50px;
+  width: 100%;
+}
+  
 }
