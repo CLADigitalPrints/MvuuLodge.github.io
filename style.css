@@ -327,13 +327,13 @@ nav {
   width: 40px;
   height: 40px;
   border-radius: 35px;
-  background-color: black;
+  background-color:  #3f2417;
   color: white;
   z-index: 99;
 }
 
 .slick-slider .slick-prev {
-  left: -10px;
+  left: 20px;
   font-size: 0;
 }
 
@@ -346,7 +346,7 @@ nav {
 
 
 .slick-slider .slick-next {
-  right: -10px;
+  right: 20px;
   font-size: 0;
 }
 
@@ -835,9 +835,228 @@ margin-left: 620px;
   padding-bottom: 12px;
  }
 
-  .tab-background{
-  height: 600px;
-  width:100%;
+ .wrapper{
+  display: flex;
+  width: 40%;
+  margin-left: 130px;
+  margin-top: 15px;
+  gap: 10px;
 }
+
+
+.card{
+  width: 190px;
+  height: 210px;
+}
+
+.card img{
+  width:50%;
+  height:50%;
+}
+
+
+.info h3{
+  position: absolute;
+  color: white;
+  font-family:Catchy Mager ;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  text-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+  padding: 0 15px;
+  font-size: 15pt;
+  margin-left: 330px;
+  transform: translateY(-300px);
+}
+
+.info h2{
+  position: absolute;
+  color: white;
+  text-align: center;
+  align-items: center;
+  font-family:Catchy Mager ;
+  margin-top: 2px;
+  margin-left: 57px;
+  transform: translateY(-300px);
+}
+
+.info p{
+  color: white;
+  text-align: center;
+  align-items: center;
+  font-size: 10pt;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+  transform: translate(-50%, -50%);
+  margin-top: 15px;
+}
+
+.info2 p{
+  color: white;
+  text-align: center;
+  align-items: center;
+  font-size: 12pt;
+  position: absolute;
+  top: 70%;
+  left: 70%;
+  text-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+  transform: translate(-50%, -50%);
+  margin-top: 15px;
+}
+
+
+
+.offer-background{
+  background-color: #4e5b28;
+  width: auto;
+  height: 50px;
+  margin-top: 50px;
+}
+
+.text2 h4{
+  text-align: center;
+  color: #fff;
+  padding: 15px;
+  padding-bottom: 25px;
+  font-size: 25px;
+  font-family: 'Catchy Mager';
+  margin-top: 5px;
+  text-shadow:0mm 0.5mm 0.5mm rgba(0,0,0,0.5);;
+}
+
+
+.tab-background{
+  background: #633B29;
+  height: 600px;
+  width:1000px;
+  transform: translateY(50px);
+  margin-top: 5px;
+  float: inline-start;
+  justify-content: center;
+  text-align: center;
+  padding: 5px 80px;
+  border-radius: 20px;
+  transform: translateY(-10px);
+  box-shadow: rgba(0,0,0,0.2);
+}
+/*tab-menu*/
+
+/* Style tab links */
+.tablink {
+  background-color:#3f2417;
+  color: white;
+  float: initial;
+  justify-content: center;
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 16px;
+  margin: 15px;
+  margin-top: 15px;
+  font-size: 14px;
+  width: auto;
+  border-radius: 10px;
+}
+
+.tablink:hover {
+  background-color:#633B29;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  background-color: #633B29;
+  display: none;
+  font-size: 15pt;
+ justify-content: left;
+ text-align: left;
+ transform: translateX(-15px);
+ margin-left: -15px;
+ margin-top: 35px;
+}
+
+
+.tabcontent img {
+  height: 350px;
+  width: 400px;
+  justify-content: right;
+  float: right;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-color: 10px #bbac9b;
+  transform: translateY(-220px);
+  margin-right: -45px;
+}
+
+#Home {background-color:#633B29}
+#News {background-color: #633B29;}
+#Contact {background-color: #633B29;}
+#About {background-color: #633B29;}
+
+
+.tab-background{
+  background: #633B29;
+  height: 300px;
+  width:1000px;
+  float: inline-start;
+  justify-content: center;
+  text-align: center;
+  padding:50px 20px;
+  border-radius: 20px;
+  box-shadow: rgba(0,0,0,0.2);
+  margin-left: 135px;
+  margin-top: 50px;
+}
+
+/*tab-menu*/
+
+/* Style tab links */
+.tablink {
+  background-color:#3f2417;
+  color: white;
+  float: initial;
+  justify-content: center;
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 16px;
+  margin: 15px;
+  margin-top: 15px;
+  font-size: 14px;
+  width: auto;
+  border-radius: 10px;
+  transform: translateY(-40px);
+}
+
+
+.tablink:hover {
+  background-color:#633B29;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  font-size: 15pt;
+  float: inline-start;
+  text-align: left;
+  justify-content: left;
+  padding: 10px;
+  margin-left: 10px;
+  transform: translateY(-70px);
+
+}
+
+.tabcontent img{
+width: 250px;
+height: 180px;
+margin-top: 35px;
+margin-left: 620px;
+}
+
+
   
 }
