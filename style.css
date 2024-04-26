@@ -813,7 +813,11 @@ margin-left: 620px;
   margin-right:10px;
 }
 
- 
+
+  *{
+  margin: 10px 10px;
+}
+
 .header_font{
   font-size: 12pt;
  }
