@@ -848,4 +848,13 @@ margin-left: 620px;
   font-size: 10px;
   padding-bottom: 22px;
  }
+
+}
+
+
+  @media (min-width: 400px){
+
+  .wrapper-main{
+  width:100%;
+  margin: 0 auto;
 }
