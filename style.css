@@ -821,4 +821,23 @@ margin-left: 620px;
   right: -125px;
   z-index: 9999;
 }
+
+.header_font{
+  font-size: 15px;
+ }
+ .sub_header{
+  color:#3f2417;
+  font-size: 8px;
+ }
+
+ .description_2{
+  font-size: 12px;
+  padding-bottom: 12px;
+ }
+
+  .tab-background{
+  height: 600px;
+  width:100%;
+}
+  
 }
