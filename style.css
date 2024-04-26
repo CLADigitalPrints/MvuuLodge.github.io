@@ -808,20 +808,11 @@ margin-left: 620px;
 /*Mobile Version*/
 @media only screen and(max-width: 400px){
 .wrapper-main{
-  width:100%;
+  width:50%;
   margin: 0 auto;
 }
 
  
-  /* off-screen-menu */
-.off-screen-menu {
-  height: auto;
-  width: 10%;
-  max-width: 125px;
-  right: -125px;
-  z-index: 9999;
-}
-
 .header_font{
   font-size: 12pt;
  }
@@ -836,7 +827,7 @@ margin-left: 620px;
 
  .wrapper{
   display: flex;
-  width: 40%;
+  width: 100hv;
   margin-left: 130px;
   margin-top: 15px;
   gap: 10px;
@@ -876,7 +867,7 @@ margin-left: 620px;
 }
 
 .text2 h4{
-  font-size: 12px;
+  font-size: 12pt;
 }
 
 
@@ -894,7 +885,7 @@ margin-left: 620px;
 .tab-background{
   background: #633B29;
   height: 300px;
-  width:1000px;
+  width:100%;
   float: inline-start;
   justify-content: center;
   text-align: center;
