@@ -788,18 +788,4 @@ margin-left: 620px;
   left : 0px;
   padding-top: 20px;
 }
-
-
-/*Mobile Version*/
-@media (max-width: 600px){
-.wrapper-main{
-  width:100%;
-}
-
-
-.header_font{
-  font-size: 12pt;
- }
-
-}
-  
+ 
