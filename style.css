@@ -1,5 +1,15 @@
 @import url("http://font.googleapis.com/css?family=CathcyMager");
+@import url('https://fonts.googleapis.com/css2?family=Alike&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
+@font-face {
+  font-family: "Catchy Mager";
+  src: url(./Fonts/Catchy\ Mager\ Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: "Alike";
+  src: url(./Fonts/Alike-Regular.ttf) format('truetype');
+}
 
 
 *{
@@ -302,7 +312,7 @@ nav {
 
  .description_2{
   text-align: center;
-  font-family: 'calibri light';
+  font-family: 'Alike';
   font-size: 22px;
   padding-bottom: 22px;
  }
