@@ -16,7 +16,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Catchy Mager, arial", "calibri light", "sans-serif";
 }
 
 
@@ -302,6 +301,8 @@ nav {
   font-family: 'Catchy Mager';
   text-shadow:0mm 0.5mm 0.5mm rgba(0,0,0,0.5);;
  }
+
+
  .sub_header{
   color:#3f2417;
   font-size: 12px;
@@ -312,7 +313,7 @@ nav {
 
  .description_2{
   text-align: center;
-  font-family: "Alike";
+  font-family: 'Alike';
   font-size: 22px;
   padding-bottom: 22px;
  }
@@ -979,6 +980,21 @@ nav {
   margin: 35px;
  }
 
+ .header_font{
+  color:#3f2417;
+  font-size: 25pt;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Catchy Mager';
+  text-shadow:0mm 0.5mm 0.5mm rgba(0,0,0,0.5);;
+ }
+
+ .line2{
+  background: #633B29;
+  height: 10px;
+  width: auto;
+ }
+
  .slick-slider button {
   position: absolute;
   top: 32%;
@@ -1034,8 +1050,8 @@ nav {
 }
 
 .slick-slider img{
-  width: 100%;
-  height: 80px;
+  width: 150%;
+  height: 100px;
 }
 
 
@@ -1056,6 +1072,90 @@ nav {
   opacity: 1;
 }
 
+.wrapper{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-left: 5px;
+  margin-top: 5px;
+  gap: 4px;
+  width: 600px;
+  transform: translateX(-80px);
+}
+
+
+.card{
+  width: 800px;
+  height: 220px;
+  padding: 2rem 10px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 2mm;
+}
+
+.card img{
+  width:100px;
+  height:100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+  border-radius: 2mm;
+}
+
+
+.info h3{
+  position: absolute;
+  color: white;
+  font-family:Catchy Mager ;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  text-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+  padding: 0 15px;
+  font-size: 15pt;
+  margin-left: 330px;
+  transform: translateY(-300px);
+}
+
+.info h2{
+  position: absolute;
+  color: white;
+  text-align: center;
+  align-items: center;
+  font-family:Catchy Mager ;
+  margin-top: 2px;
+  margin-left: 57px;
+  transform: translateY(-300px);
+}
+
+.info p{
+  color: white;
+  text-align: center;
+  align-items: center;
+  font-size: 10pt;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+  transform: translate(-50%, -50%);
+  margin-top: 15px;
+}
+
+.info2 p{
+  color: white;
+  text-align: center;
+  align-items: center;
+  font-size: 12pt;
+  position: absolute;
+  top: 70%;
+  left: 70%;
+  text-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+  transform: translate(-50%, -50%);
+  margin-top: 15px;
+}
 
 
 }
