@@ -312,7 +312,7 @@ nav {
 
  .description_2{
   text-align: center;
-  font-family: 'Alike';
+  font-family: "Alike";
   font-size: 22px;
   padding-bottom: 22px;
  }
@@ -843,7 +843,7 @@ margin-left: 620px;
 @media (max-width: 680px){
 
   .logo img{
-    width: 35%;
+    width: 40%;
     transform: translateY(10px); 
     }
 
@@ -904,18 +904,13 @@ margin-left: 620px;
 .off-screen-menu {
   background-color: #bbac9b;
   height: 100vh;
-  width: 100%;
-  max-width: 450px;
+  width: 50%;
   position: fixed;
   top: 0;
-  right: -450px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;    
-  justify-content: center;
-  text-align: center;
+  right: -10px;
   font-size: 3rem;
   transition: .3s ease;
+  transform: translateX(-450px);
   z-index: 2;
 }
 .off-screen-menu.active {
@@ -939,16 +934,18 @@ nav {
   width: 40px;
   margin-left: auto;
   position: relative;
+  transform: translateX(-180%);
 }
 .ham-menu span {
   height: 5px;
-  width: 100%;
+  width: 50px;
   background-color:#4e5b28;
-  border-radius: 25px;
+  border-radius: 5px;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  transform: translateX(-50px);
   transition: .3s ease;
   z-index: 2;
 }
@@ -973,4 +970,92 @@ nav {
   transform: translate(-50%, -50%) rotate(-45deg);
 }
 /*End Of Hamburger Menu*/
+
+.description_2{
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 10pt;
+  padding-bottom: 22px;
+  margin: 35px;
+ }
+
+ .slick-slider button {
+  position: absolute;
+  top: 32%;
+  outline: "none";
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 35px;
+  background-color:  #3f2417;
+  color: white;
+  z-index: 99;
+}
+
+.slick-slider .slick-prev {
+  left: 20px;
+  font-size: 0;
+}
+
+.slick-slider .slick-prev::before {
+  content: '<';
+  line-height: 1;
+  font-size: 25px;
+}
+
+
+
+.slick-slider .slick-next {
+  right: 20px;
+  font-size: 0;
+}
+
+.slick-slider .slick-next::after {
+  content: '>';
+  line-height: 1;
+  font-size: 25px;
+}
+
+
+
+.slick-dots{
+  text-align: center;
+}
+
+.slick-dots li{
+  display: inline-block;
+  padding: 1px;
+  background-color: #3f2417;
+  margin: 10px 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.slick-slider img{
+  width: 100%;
+  height: 80px;
+}
+
+
+
+.slick-slide {
+  padding:40px 0;
+  position: relative;
+  height:auto !important;
+  opacity: 0.5;
+  transition: all 900ms ease;
+}
+
+
+
+
+
+.slick-current .xyz{
+  opacity: 1;
+}
+
+
+
 }
