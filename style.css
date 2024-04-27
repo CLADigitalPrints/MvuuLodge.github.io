@@ -12,10 +12,16 @@
 
 
 
-body {
+.body {
   padding: 0px;
   background: #dfd4cd;
   margin: 0px;
+}
+
+
+.page-wrapper{
+  max-width: 1000px;
+  min-height: 100%;
 }
 
 
