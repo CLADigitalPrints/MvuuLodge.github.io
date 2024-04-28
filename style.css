@@ -771,7 +771,7 @@ nav {
 }
 
 .footer .footer-content{
-  border: 1px solid #3f2417;
+  
   height: 350px;
   display: flex; 
 }
@@ -788,6 +788,7 @@ nav {
 }
 .contact-form{
   margin-left: 5px;
+  transform: translateY(-150px);
 }
 .contact {
   font-family: 'Catchy Mager';
@@ -805,7 +806,7 @@ nav {
   font-family: 'Catchy Mager';
   color: #fff;
   align-items: center;
- transform: translateX(225px);
+ transform: translateX(-50px);
 }
 
 
@@ -821,6 +822,10 @@ nav {
   border-radius: 5px;
   justify-content: center;
   text-align: center;
+}
+
+ .socials h3{
+  transform: translateX(-250px);
 }
 .footer .footer-content .socials a {
   border: 3px solid #bbac9b;
@@ -1279,8 +1284,25 @@ nav {
   transform: translateY(-7px);
 }
 
+.tab-background{
+  background: #633B29;
+  height: 600px;
+  width:100%;
+  transform: translateY(50px);
+  margin-top: 5px;
+  float: inline-start;
+  justify-content: center;
+  text-align: center;
+  padding: 5px 80px;
+  border-radius: 20px;
+  transform: translateY(-10px);
+  box-shadow: rgba(0,0,0,0.2);
+  height: 350px; 
+  margin-top: 50px;
+}
 /*tab-menu*/
-* Style tab links */
+
+/* Style tab links */
 .tablink {
   background-color:#3f2417;
   color: white;
@@ -1298,11 +1320,9 @@ nav {
   width: auto;
   height: auto;
   border-radius: 10px;
+  flex-direction: column;
 }
 
-.tablink:hover {
-  background-color:#633B29;
-}
 
 /* Style the tab content (and add height:100% for full page content) */
 
@@ -1310,7 +1330,6 @@ nav {
   font-size: 12pt;
   font-family: 'Alike';
   background-size: contain;
-  transform: translateY();
 }
 
 .tabcontent img {
@@ -1331,16 +1350,15 @@ nav {
 .tab-background{
   background: #633B29;
   height: 300px;
-  width:85%;
+  width:1000px;
   float: inline-start;
   justify-content: center;
   text-align: center;
   padding:50px 20px;
   border-radius: 20px;
   box-shadow: rgba(0,0,0,0.2);
-  margin-left: 146px;
+  margin-left: 135px;
   margin-top: 80px;
-  transform: translateX(-120px);
 }
 
 /*tab-menu*/
@@ -1365,10 +1383,14 @@ nav {
 }
 
 
+.tablink:hover {
+  background-color:#633B29;
+}
+
 /* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
   color: white;
-  font-size: 5pt;
+  font-size: 15pt;
   float: inline-start;
   text-align: left;
   justify-content: left;
@@ -1380,12 +1402,10 @@ nav {
 
 
 .background_colour{
-  background-color: #3f2417;
-  height: 580px;
-  width: 150%;
-  margin-left: 25px;
-  margin-top: 450px;
-  transform: translateX(-350px);
+  height: 100%;
+  width: 100%;
+  transform: translateX(-25px);
+
 }
 
 .background_colour h1 {
@@ -1401,16 +1421,12 @@ nav {
 }
 
 .wrapping{
-  display: flex;
-  width: 50%;
-  justify-content: space-around;
-  text-align: center;
+  width: 20%;
   margin-top: 5px;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   gap: 9px;
-  margin: 50px;
-  margin-left: 255px;
-  transform: translateX(220px);
+  flex-direction: column;
+  transform: translateX(-200px);
 }
 
 .info h3{
@@ -1426,13 +1442,12 @@ nav {
   margin-top: 125px;
   margin-left: 6px;
   margin: 50px;
-  transform: translateX(-320px);
   transform: translatey(-200px);
   gap: 20px;
 }
 
 .cards{
-  width: 380px;
+  width: 270px;
   height: 350px;
   position: relative;
   display: flex;
@@ -1494,8 +1509,9 @@ nav {
 /*footer*/
 .footer{
   height:auto;
+  width: 100%;
   position: absolute;
-  transform: translateX(100px);
+  
 }
 
 .footer .footer-content{
@@ -1515,7 +1531,7 @@ nav {
   font-family: 'Catchy Mager';
   color: #fff;
   justify-content: center;
-  transform: translateX(180px);
+  transform: translateX(-75px);
 }
 .footer .footer-content .footer-section{
   flex: 1; /*for horizonal spacing */
@@ -1527,7 +1543,6 @@ nav {
   font-family: 'Catchy Mager';
   color: #fff;
   align-items: center;
- transform: translateX(180px);
 }
 
 .footer .footer-content .about .contact span{
@@ -1537,27 +1552,29 @@ nav {
   
 }
 .footer .footer-content .footer-section h2{
-  transform: translateX(230px);
+  transform: translateX(-80px);
 }
 .trip-icon{
- transform: translateX(50px);
+ transform: translateX(-50px);
 }
 .footer .footer-content .socials a {
-  transform: translateX(180px);
+  transform: translateX(-80px);
+  font-size: 15pt;
 }
 
 .button{
-  transform: translateX(10px);
+  transform: translateX(-100px);
 }
 
 .btn{
   background-color: #bbac9b;
   width: 110px;
   height: 30px;
+  transform: translateY(-10px);
 }
 .contact-form {
-  transform: translateX(220px);
-  margin-top: auto;
+  transform: translateX(-30px);
+  
 }
 .contact-form h2{
   transform: translateX(-150px);
