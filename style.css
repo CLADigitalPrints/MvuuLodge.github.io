@@ -898,7 +898,7 @@ nav {
 
 
 
-@media (max-width: 680px){
+@media only screen and (max-width: 600px){
 
   .logo img{
     width: 50%;
@@ -1493,32 +1493,29 @@ nav {
 
 /*footer*/
 .footer{
-  background: #633B29;
-  color: #bbac9b;
-  height:400px;
-  position: fixed;
-  width: 100%;
+  height:auto;
+  position: absolute;
+  transform: translateX(100px);
 }
 
 .footer .footer-content{
-  border: 1px solid #3f2417;
-  height: 350px;
-  
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
 }
+
 
 .btn{
   background-color: #bbac9b;
   width: 110px;
   height: 30px;
 }
-.contact-form{
-  margin-left: 5px;
-}
+
 .contact {
   font-family: 'Catchy Mager';
   color: #fff;
   justify-content: center;
-  transform: translateX(220px);
+  transform: translateX(180px);
 }
 .footer .footer-content .footer-section{
   flex: 1; /*for horizonal spacing */
@@ -1530,10 +1527,8 @@ nav {
   font-family: 'Catchy Mager';
   color: #fff;
   align-items: center;
- transform: translateX(225px);
+ transform: translateX(180px);
 }
-
-
 
 .footer .footer-content .about .contact span{
   display: block;
@@ -1541,84 +1536,41 @@ nav {
   margin: 8px;
   
 }
-
+.footer .footer-content .footer-section h2{
+  transform: translateX(230px);
+}
 .trip-icon{
-  border-radius: 5px;
-  justify-content: center;
-  text-align: center;
+ transform: translateX(50px);
 }
 .footer .footer-content .socials a {
-  border: 3px solid #bbac9b;
-  width: 40px;
-  height:40px;
-  gap: 50px;
-  padding-top: 15px;
-  margin-right: 5px;
-  text-align: center;
-  display: inline-block;
-  border-radius: 5px;
-  transform: translateX(20px);
-}
-
-.footer .footer-content .socials i{
-  color: #bbac9b;
-  width: 35px;
-  height: 35px;
-  margin-top: 2px;
-  margin-bottom: 25px;
-  transform: translateY(-10px);
-  font-size: 12pt;
-}
-.footer .footer-bottom{
-  background: #3f2417;
-  color: #fff;
-  height: 50px;
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  bottom : 0px;
-  left : 0px;
-  padding-top: 20px;
+  transform: translateX(180px);
 }
 
 .button{
-  background-color:#4e5b28;
-  color: white;
-  float: initial;
-  justify-content: center;
-  text-align: center;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 10px 16px;
-  margin: 150px;
-  margin-top: 15px;
-  font-size: 10px;
-  width: 150px;
-  border-radius: 10px;
-  transform: translateX(50px);
+  transform: translateX(10px);
 }
 
-
-.button a{
-  text-decoration: none;
-  color: #fff;
-  margin: 0 15px;
-  font-size: 9pt;
+.btn{
+  background-color: #bbac9b;
+  width: 110px;
+  height: 30px;
 }
-
+.contact-form {
+  transform: translateX(220px);
+  margin-top: auto;
+}
+.contact-form h2{
+  transform: translateX(-150px);
+}
 .footer .footer-bottom{
-  background: #3f2417;
-  color: #fff;
-  height: 50px;
+  height: auto;
   width: 100%;
-  text-align: center;
-  position: absolute;
-  bottom : 0px;
-  left : 0px;
-  padding-top: 20px;
 }
 
-
-
+.footer .footer-bottom p{
+  font-size: 6pt;
+  transform: translateX(180px);
+  transform: translateY(-10px);
+  margin-left: 190px;
+}
 }
