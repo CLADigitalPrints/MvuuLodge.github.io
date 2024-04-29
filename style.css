@@ -788,14 +788,18 @@ nav {
 }
 .contact-form{
   margin-left: 5px;
-  transform: translateY(-150px);
+  transform: translateY(50px);
+    font-family: 'Catchy Mager';
+  color: #fff;
+  justify-content: center;
 }
 .contact {
   font-family: 'Catchy Mager';
   color: #fff;
   justify-content: center;
-  transform: translateX(220px);
+  transform: translateX(350px);
 }
+
 .footer .footer-content .footer-section{
   flex: 1; /*for horizonal spacing */
   padding: 25px;
@@ -806,9 +810,8 @@ nav {
   font-family: 'Catchy Mager';
   color: #fff;
   align-items: center;
- transform: translateX(-50px);
+ transform: translateX(350px);
 }
-
 
 
 .footer .footer-content .about .contact span{
@@ -824,8 +827,14 @@ nav {
   text-align: center;
 }
 
- .socials h3{
-  transform: translateX(-250px);
+.footer .footer-section .socials h3{
+  color: #fff; 
+  transform: translateY(-10px); 
+  transform: translateX(350px);
+  font-family: Alike;
+  font-size: 12pt;
+  font-weight: lighter;
+  
 }
 .footer .footer-content .socials a {
   border: 3px solid #bbac9b;
@@ -837,7 +846,7 @@ nav {
   text-align: center;
   display: inline-block;
   border-radius: 5px;
-  transform: translateX(20px);
+  transform: translateX(350px);
 }
 
 .footer .footer-content .socials i{
@@ -876,7 +885,7 @@ nav {
   font-size: 10px;
   width: 150px;
   border-radius: 10px;
-  transform: translateX(50px);
+  transform: translateX(65px);
 }
 
 
@@ -1284,25 +1293,8 @@ nav {
   transform: translateY(-7px);
 }
 
-.tab-background{
-  background: #633B29;
-  height: 600px;
-  width:100%;
-  transform: translateY(50px);
-  margin-top: 5px;
-  float: inline-start;
-  justify-content: center;
-  text-align: center;
-  padding: 5px 80px;
-  border-radius: 20px;
-  transform: translateY(-10px);
-  box-shadow: rgba(0,0,0,0.2);
-  height: 350px; 
-  margin-top: 50px;
-}
 /*tab-menu*/
-
-/* Style tab links */
+* Style tab links */
 .tablink {
   background-color:#3f2417;
   color: white;
@@ -1320,9 +1312,11 @@ nav {
   width: auto;
   height: auto;
   border-radius: 10px;
-  flex-direction: column;
 }
 
+.tablink:hover {
+  background-color:#633B29;
+}
 
 /* Style the tab content (and add height:100% for full page content) */
 
@@ -1330,6 +1324,7 @@ nav {
   font-size: 12pt;
   font-family: 'Alike';
   background-size: contain;
+  transform: translateY();
 }
 
 .tabcontent img {
@@ -1350,15 +1345,16 @@ nav {
 .tab-background{
   background: #633B29;
   height: 300px;
-  width:1000px;
+  width:85%;
   float: inline-start;
   justify-content: center;
   text-align: center;
   padding:50px 20px;
   border-radius: 20px;
   box-shadow: rgba(0,0,0,0.2);
-  margin-left: 135px;
+  margin-left: 146px;
   margin-top: 80px;
+  transform: translateX(-120px);
 }
 
 /*tab-menu*/
@@ -1383,14 +1379,10 @@ nav {
 }
 
 
-.tablink:hover {
-  background-color:#633B29;
-}
-
 /* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
   color: white;
-  font-size: 15pt;
+  font-size: 5pt;
   float: inline-start;
   text-align: left;
   justify-content: left;
