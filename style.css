@@ -1085,8 +1085,7 @@ nav {
 .description_2{
   text-align: center;
   font-family: "Alike";
-  font-style: normal;
-  font-weight: 1000;
+  font-weight: lighter;
   font-size: 10pt;
   padding-bottom: 22px;
   margin: 35px;
@@ -1192,7 +1191,7 @@ nav {
 
 .card{
   width: 150px;
-  height: 170px;
+  height: 120;
   padding: 2px 2px;
   position: relative;
   display: flex;
@@ -1218,20 +1217,20 @@ nav {
 }
 
 
-.info h3{
+.card .info h3{
   position: absolute;
   color: white;
-  font-family:Catchy Mager ;
+  font-family:Catchy Mager;
   text-align: center;
   align-items: center;
   align-content: center;
   justify-content: center;
   text-shadow: 0px 7px 10px rgba(0,0,0,0.5);
-  font-size: 6.5pt;
+  font-size: 9pt;
   margin-top: 125px;
-  margin-left: 6px;
+  margin-left: 36px;
   transform: translateX(-90px);
-  transform: translatey(-270px);
+  transform: translatey(-475px);
 }
 
 .info h2{
@@ -1242,21 +1241,22 @@ nav {
   font-family:Catchy Mager ;
   margin-top: 2px;
   margin-left: 60px;
-  transform: translateY(-300px);
+  transform: translateY(-350px);
 }
 
 .info p{
   color: white;
-  font-family: Alike;
+  font-family:Alike;
+  font-weight: lighter;
   text-align: center;
   align-items: center;
-  font-size: 5.5pt;
+  font-size: 8pt;
   position: absolute;
   top: 50%;
   left: 50%;
   text-shadow: 0px 7px 10px rgba(0,0,0,0.5);
   transform: translate(-50%, -50%);
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .info2 p{
@@ -1294,26 +1294,30 @@ nav {
 }
 
 /*tab-menu*/
-* Style tab links */
+/* Style tab links */
 .tablink {
   background-color:#3f2417;
   color: white;
   float: initial;
+  cursor: pointer;
+  font-family: 'Alike';
+  font-size: 5pt;
+  width: 65px;
+  height: 25px;
+  border-radius: 2px;
+  transform: translateY(20px);
   justify-content: center;
   text-align: center;
   border: none;
   outline: none;
-  cursor: pointer;
   padding: 10px 16px;
   margin: 15px;
   margin-top: 15px;
-  font-family: 'Alike';
-  font-size: 14pt;
-  width: auto;
-  height: auto;
-  border-radius: 10px;
 }
 
+.tablink p{
+  transform: translateY(-8px);
+}
 .tablink:hover {
   background-color:#633B29;
 }
@@ -1321,75 +1325,41 @@ nav {
 /* Style the tab content (and add height:100% for full page content) */
 
 .tabcontent p{
-  font-size: 12pt;
+  font-size: 5.8pt;
   font-family: 'Alike';
-  background-size: contain;
-  transform: translateY();
+  transform: translateX(-20px);
+  text-wrap: balance;
+  margin-top: 56px;
+  word-wrap: break-word;
+  word-break: break-all;
 }
 
 .tabcontent img {
-  justify-content: right;
-  float: right;
+  
   border-radius: 5px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  border-color: 10px #bbac9b;
-  transform: translateY(-100px);
+  margin-left: 15px;
   border: 6px solid #fff;
-  margin-right: -45px;
-  width: 250px;
-  height: 180px;
-  margin-top: 35px;
-  margin-left: 620px;
+  width: 200px;
+  height: 140px;
+  transform: translateY(-100px);
+  transform: translateX(-74px);
+  margin-bottom: 70px;
+  margin-top:6px;
 }
 
 .tab-background{
   background: #633B29;
   height: 300px;
-  width:85%;
+  width:92%;
   float: inline-start;
   justify-content: center;
   text-align: center;
-  padding:50px 20px;
+  padding:5px 20px;
   border-radius: 20px;
   box-shadow: rgba(0,0,0,0.2);
   margin-left: 146px;
   margin-top: 80px;
-  transform: translateX(-120px);
-}
-
-/*tab-menu*/
-
-/* Style tab links */
-.tablink {
-  background-color:#3f2417;
-  color: white;
-  float: initial;
-  justify-content: center;
-  text-align: center;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 10px 16px;
-  margin: 15px;
-  margin-top: 15px;
-  font-size: 14px;
-  width: auto;
-  border-radius: 10px;
-  transform: translateY(-40px);
-}
-
-
-/* Style the tab content (and add height:100% for full page content) */
-.tabcontent {
-  color: white;
-  font-size: 5pt;
-  float: inline-start;
-  text-align: left;
-  justify-content: left;
-  padding: 10px;
-  margin-left: 25px;
-  transform: translateY(-70px);
-
+  transform: translateX(-130px);
 }
 
 
@@ -1523,7 +1493,7 @@ nav {
   font-family: 'Catchy Mager';
   color: #fff;
   justify-content: center;
-  transform: translateX(-75px);
+  transform: translateX(50px);
 }
 .footer .footer-content .footer-section{
   flex: 1; /*for horizonal spacing */
@@ -1544,18 +1514,25 @@ nav {
   
 }
 .footer .footer-content .footer-section h2{
-  transform: translateX(-80px);
+  transform: translateX(20px);
+  text-align: center;
+  justify-content: center;
+  content: normal;
 }
 .trip-icon{
- transform: translateX(-50px);
+ transform: translateX(10px);
 }
 .footer .footer-content .socials a {
-  transform: translateX(-80px);
+  transform: translateX(40px);
   font-size: 15pt;
 }
 
 .button{
-  transform: translateX(-100px);
+  text-align: center;
+  justify-content: center;
+  content: normal;
+  transform: translateY(20px);
+  transform: translateX(-60px);
 }
 
 .btn{
@@ -1563,23 +1540,35 @@ nav {
   width: 110px;
   height: 30px;
   transform: translateY(-10px);
+  text-align: center;
+  justify-content: center;
+  content: normal;
 }
 .contact-form {
-  transform: translateX(-30px);
+  transform: translateX(-10px);
+  text-align: center;
+  justify-content: center;
+  content: normal;
   
 }
 .contact-form h2{
-  transform: translateX(-150px);
+  margin-left: 30px;
+  text-align: center;
+  justify-content: center;
+  content: normal;
 }
 .footer .footer-bottom{
-  height: auto;
+  height: 45px;
   width: 100%;
+ 
 }
 
 .footer .footer-bottom p{
-  font-size: 6pt;
-  transform: translateX(180px);
-  transform: translateY(-10px);
+  font-size: 7pt;
   margin-left: 190px;
+  justify-content: center;
+  word-break: keep-all;
+  margin-left: 10px;
+  transform: translateY(-6px);
 }
 }
